@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Black Friday Teaser Carousel</title>
+<style>
+  :root {
+    --base: #0B1314;
+    --text: #F4F6F0;
+    --muted: #73857A;
+    --accent: #C6FF3A;
+    --card: #111C1E;
+    --line: #1F2F31;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #333; font-family: 'Manrope', 'Inter', sans-serif; display: flex; flex-direction: column; gap: 40px; align-items: center; padding: 40px 0; }
+  .slide { width: 1080px; height: 1350px; background: var(--base); color: var(--text); position: relative; overflow: hidden; flex: none; }
+
+  /* Brand bar */
+  .counter { position: absolute; top: 80px; left: 80px; font-size: 32px; font-weight: 700; color: var(--muted); letter-spacing: 1px; }
+  .pill { position: absolute; top: 68px; right: 80px; font-size: 28px; font-weight: 700; color: var(--accent); border: 2px solid var(--accent); border-radius: 999px; padding: 12px 28px; letter-spacing: 1.5px; text-transform: uppercase; }
+  .brand { position: absolute; bottom: 74px; left: 80px; display: flex; align-items: center; gap: 18px; font-size: 36px; font-weight: 900; color: var(--text); letter-spacing: 1px; }
+  .brand b { color: var(--accent); font-weight: 900; }
+  .swipe { position: absolute; bottom: 80px; right: 80px; font-size: 34px; font-weight: 700; color: var(--accent); }
+
+  .content { position: absolute; left: 80px; right: 80px; top: 200px; bottom: 200px; display: flex; flex-direction: column; }
+  .label { font-size: 38px; font-weight: 700; color: var(--muted); letter-spacing: 3px; text-transform: uppercase; margin-bottom: 36px; }
+  h1, h2, h3, .num, .dot, .tag { font-family: 'Sora', 'Inter', sans-serif; }
+  h1, h2 { font-weight: 900; line-height: 1.02; letter-spacing: -2px; }
+  h1 { font-size: 124px; }
+  h2 { font-size: 104px; }
+  .body { font-size: 46px; font-weight: 700; line-height: 1.3; color: #E7EBE8; }
+
+  /* Highlight with hand-drawn underline */
+  .hl { color: var(--accent); position: relative; display: inline-block; }
+  .hl svg { position: absolute; left: -2%; width: 104%; bottom: -16px; height: 24px; }
+
+  /* Glow + shapes */
+  .glow { position: absolute; border-radius: 50%; background: radial-gradient(circle, rgba(198,255,58,.28) 0%, rgba(198,255,58,0) 65%); }
+  .ring { position: absolute; border-radius: 50%; border: 4px solid var(--accent); }
+
+  /* Cards */
+  .cards { display: flex; flex-direction: column; gap: 28px; margin-top: 64px; }
+  .card { background: var(--card); border: 2px solid var(--line); border-radius: 36px; padding: 36px 40px; display: flex; align-items: center; gap: 36px; }
+  .icon { width: 108px; height: 108px; border-radius: 50%; background: rgba(198,255,58,.12); display: flex; align-items: center; justify-content: center; flex: none; }
+  .icon svg { width: 56px; height: 56px; stroke: var(--accent); fill: none; stroke-width: 3.5; stroke-linecap: round; stroke-linejoin: round; }
+  .card h3 { font-size: 50px; font-weight: 900; margin-bottom: 6px; }
+  .card p { font-size: 40px; font-weight: 700; color: var(--muted); line-height: 1.25; }
+
+  /* Numbered list */
+  .list { margin-top: 64px; display: flex; flex-direction: column; gap: 0; }
+  .row { display: flex; gap: 40px; align-items: flex-start; padding: 40px 0; border-top: 2px solid var(--line); }
+  .row:last-child { border-bottom: 2px solid var(--line); }
+  .num { font-size: 84px; font-weight: 900; color: var(--accent); line-height: 1; width: 130px; flex: none; }
+  .row h3 { font-size: 52px; font-weight: 900; margin-bottom: 8px; }
+  .row p { font-size: 40px; font-weight: 700; color: var(--muted); line-height: 1.25; }
+
+  /* Before / after */
+  .vs { margin-top: 64px; display: flex; flex-direction: column; gap: 40px; }
+  .panel { border-radius: 40px; padding: 64px 48px; }
+  .panel.old { background: var(--card); border: 2px solid var(--line); }
+  .panel.new { background: rgba(198,255,58,.10); border: 3px solid var(--accent); }
+  .tag { font-size: 32px; font-weight: 900; letter-spacing: 3px; text-transform: uppercase; margin-bottom: 20px; }
+  .old .tag { color: var(--muted); }
+  .new .tag { color: var(--accent); }
+  .panel p { font-size: 42px; font-weight: 700; line-height: 1.3; white-space: nowrap; }
+  .old p { color: #9BA8A0; }
+  .panel p + p { margin-top: 10px; }
+
+  /* Steps */
+  .steps { margin-top: 90px; position: relative; display: flex; flex-direction: column; gap: 100px; }
+  .steps::before { content: ''; position: absolute; left: 59px; top: 60px; bottom: 60px; width: 4px; background: var(--line); }
+  .step { display: flex; align-items: center; gap: 48px; position: relative; }
+  .dot { width: 120px; height: 120px; border-radius: 50%; background: var(--accent); color: var(--base); font-size: 52px; font-weight: 900; display: flex; align-items: center; justify-content: center; flex: none; }
+  .step p { font-size: 50px; font-weight: 900; line-height: 1.15; letter-spacing: -0.5px; }
+  .step small { display: block; font-size: 38px; font-weight: 700; color: var(--muted); margin-top: 6px; letter-spacing: 0; }
+
+  .cta-handle { margin-top: 56px; font-size: 56px; font-weight: 900; color: var(--accent); }
+  .brand img { height: 56px; width: auto; }
+  .bars { position: absolute; right: 80px; bottom: 190px; display: flex; align-items: flex-end; gap: 30px; }
+  .bars i { display: block; width: 92px; border-radius: 20px 20px 8px 8px; background: var(--accent); }
+  .race { position: absolute; left: 80px; right: 80px; bottom: 210px; display: flex; flex-direction: column; gap: 26px; }
+  .lane { position: relative; height: 84px; display: flex; align-items: center; }
+  .lane .who { width: 140px; font-size: 28px; font-weight: 800; letter-spacing: 2px; color: var(--muted); text-transform: uppercase; flex: none; }
+  .lane .track { position: relative; flex: 1; height: 8px; border-radius: 8px; background: var(--line); }
+  .lane .dot2 { position: absolute; top: 50%; width: 64px; height: 64px; margin-top: -32px; margin-left: -32px; border-radius: 50%; background: #3A4B48; }
+  .lane.you .who { color: var(--accent); }
+  .lane.you .track { background: linear-gradient(90deg, rgba(198,255,58,0) 0%, var(--accent) 100%); }
+  .lane.you .dot2 { background: var(--accent); box-shadow: 0 0 60px 14px rgba(198,255,58,.45); }
+</style>
+</head>
+<body>
+<section class="slide" id="s1">
+  <div class="counter">1 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="race">
+    <div class="lane"><div class="who">Rival</div><div class="track"><div class="dot2" style="left:44%"></div></div></div>
+    <div class="lane you"><div class="who">You</div><div class="track"><div class="dot2" style="left:88%"></div></div></div>
+    <div class="lane"><div class="who">Rival</div><div class="track"><div class="dot2" style="left:58%"></div></div></div>
+  </div>
+  <div class="content" style="top:210px;">
+    <div class="label">Boost early, win the race</div>
+    <h1>Start boosting before your <span class="hl">rivals<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 16 C 40 5, 80 21, 120 10 S 180 8, 196 12" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span> do</h1>
+  </div>
+  <div class="brand"><img src="logo-icon-t.png" alt=""><span>NEXTRA<b>GENCY</b></span></div>
+  <div class="swipe">Swipe →</div>
+</section>
+<section class="slide" id="s2">
+  <div class="counter">2 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="content">
+    <h2>Early ads cost <span class="hl">less<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 14 C 50 4, 90 20, 130 9 S 182 12, 196 7" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span></h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 56 56"><path d="M28 8 V46"/><path d="M15 33 L28 46 L41 33"/></svg></div>
+        <div><h3>Lower costs</h3><p>Prices rise near the sale.</p></div>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 56 56"><circle cx="20" cy="19" r="7"/><path d="M6 46 C6 33 34 33 34 46"/><circle cx="40" cy="21" r="6"/><path d="M38 34 C48 33 52 39 52 46"/></svg></div>
+        <div><h3>Less competition</h3><p>Rivals haven't launched yet.</p></div>
+      </div>
+      <div class="card">
+        <div class="icon"><svg viewBox="0 0 56 56"><path d="M22 8 H34"/><path d="M25 8 V22 L12 44 C11 47 13 49 16 49 H40 C43 49 45 47 44 44 L31 22 V8"/></svg></div>
+        <div><h3>More room to test</h3><p>Learn what works cheaply.</p></div>
+      </div>
+    </div>
+  </div>
+  <div class="brand"><img src="logo-icon-t.png" alt=""><span>NEXTRA<b>GENCY</b></span></div>
+  <div class="swipe">Swipe →</div>
+</section>
+<section class="slide" id="s3">
+  <div class="counter">3 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="glow" style="width:800px;height:800px;right:-260px;bottom:-200px;"></div>
+  <div class="content">
+    <div class="label">The head start</div>
+    <h2>Early audiences cost less to <span class="hl">catch<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 15 C 45 5, 95 20, 135 9 S 184 11, 196 8" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span>.</h2>
+    <p class="body" style="margin-top:64px;max-width:860px;">Reach people before the Black Friday rush. By launch day, they already know your brand.</p>
+  </div>
+  <div class="brand"><img src="logo-icon-t.png" alt=""><span>NEXTRA<b>GENCY</b></span></div>
+  <div class="swipe">Swipe →</div>
+</section>
+<section class="slide" id="s4">
+  <div class="counter">4 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="content">
+    <h2>Use the head start to <span class="hl">build<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 13 C 50 5, 90 19, 130 10 S 182 9, 196 12" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span></h2>
+    <div class="list">
+      <div class="row"><div class="num">01</div><div><h3>Teaser ads</h3><p>Spark curiosity about the offer.</p></div></div>
+      <div class="row"><div class="num">02</div><div><h3>Audience growth</h3><p>Followers, sign-ups, a VIP list.</p></div></div>
+      <div class="row"><div class="num">03</div><div><h3>Retargeting pools</h3><p>Retarget everyone who engages.</p></div></div>
+    </div>
+  </div>
+  <div class="brand"><img src="logo-icon-t.png" alt=""><span>NEXTRA<b>GENCY</b></span></div>
+  <div class="swipe">Swipe →</div>
+</section>
+<section class="slide" id="s5">
+  <div class="counter">5 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="content">
+    <h2>Win the early <span class="hl">race<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 15 C 40 6, 90 20, 125 10 S 184 10, 196 7" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span></h2>
+    <div class="vs">
+      <div class="panel old">
+        <div class="tag">Starting late</div>
+        <p>✕ Pay peak prices</p>
+        <p>✕ Fight every brand at once</p>
+      </div>
+      <div class="panel new">
+        <div class="tag">Starting now</div>
+        <p>✓ Pay lower prices</p>
+        <p>✓ Own the audience first</p>
+      </div>
+    </div>
+  </div>
+  <div class="brand"><img src="logo-icon-t.png" alt=""><span>NEXTRA<b>GENCY</b></span></div>
+  <div class="swipe">Swipe →</div>
+</section>
+<section class="slide" id="s6">
+  <div class="counter">6 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="content">
+    <h2>Your first-week <span class="hl">plan<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 14 C 48 5, 92 20, 128 10 S 184 11, 196 8" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span></h2>
+    <div class="steps">
+      <div class="step"><div class="dot">1</div><p>Launch teaser ads<small>Start with a small daily budget.</small></p></div>
+      <div class="step"><div class="dot">2</div><p>Capture the audience<small>Likes, sign-ups, site visitors.</small></p></div>
+      <div class="step"><div class="dot">3</div><p>Retarget on launch day<small>Show the offer to warm buyers.</small></p></div>
+    </div>
+  </div>
+  <div class="brand"><img src="logo-icon-t.png" alt=""><span>NEXTRA<b>GENCY</b></span></div>
+  <div class="swipe">Swipe →</div>
+</section>
+<section class="slide" id="s7">
+  <div class="counter">7 / 7</div>
+  <div class="pill">Paid Ads</div>
+  <div class="glow" style="width:900px;height:900px;left:90px;bottom:-330px;"></div>
+  <img src="logo-full-t.png" style="position:absolute;width:500px;left:290px;bottom:20px;">
+  <div class="content" style="justify-content:flex-start;top:210px;">
+    <h1 style="line-height:1.14;">Be <span class="hl">first<svg viewBox="0 0 200 24" preserveAspectRatio="none"><path d="M4 15 C 45 5, 95 20, 135 9 S 184 11, 196 8" stroke="#C6FF3A" stroke-width="7" fill="none" stroke-linecap="round"/></svg></span> to your audience.</h1>
+    <p class="body" style="margin-top:72px;max-width:900px;">Save this for your Black Friday plan, and send it to someone who sells online.</p>
+  </div>
+</section>
+
+</body>
+</html>
