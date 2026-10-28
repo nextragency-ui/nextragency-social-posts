@@ -1,0 +1,51 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+:root{--base:#0B1314;--accent:#C6FF3A;--text:#F4F6F0;--mute:#73857A}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1080px;height:1920px;background:var(--base);font-family:'Inter',sans-serif;color:var(--text);overflow:hidden;position:relative}
+.glow{position:absolute;right:-300px;bottom:-200px;width:1100px;height:1100px;border-radius:50%;background:radial-gradient(circle,rgba(198,255,58,.22),transparent 65%)}
+.sc{position:absolute;left:90px;right:90px;top:420px;opacity:0}
+.sc.c{top:0;bottom:0;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding-top:60px}
+.k{font-size:38px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-bottom:40px}
+h1{font-size:128px;line-height:1.08;font-weight:900;letter-spacing:-.03em}
+h1 em{font-style:normal;color:var(--accent);position:relative;display:inline-block}
+h1 em svg{position:absolute;left:0;bottom:-18px;width:100%;height:26px}
+p{font-size:52px;line-height:1.35;margin-top:48px;color:var(--text);opacity:.92}
+.num{width:150px;height:150px;border-radius:50%;background:var(--accent);color:var(--base);font-weight:900;font-size:100px;display:flex;align-items:center;justify-content:center;margin-bottom:50px}
+.brand{position:absolute;left:90px;bottom:300px;display:flex;align-items:center;gap:20px;font-weight:900;font-size:40px;letter-spacing:.02em}
+.brand img{height:56px}.brand b{color:var(--accent)}
+.bar{position:absolute;left:90px;right:90px;top:200px;height:8px;background:rgba(255,255,255,.12);border-radius:4px}
+.bar i{display:block;height:100%;width:0;background:var(--accent);border-radius:4px}
+.cta{font-size:76px;font-weight:900;line-height:1.15;margin-top:60px;letter-spacing:-.02em}
+.cta em{font-style:normal;color:var(--accent)}
+.pill{position:absolute;right:90px;top:260px;border:3px solid var(--accent);color:var(--accent);border-radius:40px;padding:10px 28px;font-size:30px;font-weight:800;letter-spacing:.08em}
+</style></head><body>
+<div class="glow"></div><div class="bar"><i id="pr"></i></div><div class="pill">BLACK FRIDAY</div>
+<div id="stage"></div>
+<div class="brand"><img src="logo-icon-t.png"><span>NEXTRA<b>GENCY</b></span></div>
+<script>
+const U='<svg viewBox="0 0 300 26" preserveAspectRatio="none"><path d="M4 18 C60 6,140 22,296 8" fill="none" stroke="#C6FF3A" stroke-width="8" stroke-linecap="round"/></svg>';
+const hl=w=>'<em>'+w+U+'</em>';
+const R={
+1:{dur:12,sc:[
+ [0,3,'<h1>Black Friday is '+hl('4 weeks')+' away.</h1>'],
+ [3,6.5,'<h1>Ads get '+hl('pricier')+' as it gets closer.</h1>'],
+ [6.5,9.5,'<h1>Start your '+hl('teaser')+' ads now.</h1><p>Reach people before your rivals do.</p>'],
+ [9.5,12,'<img src="logo-full-t.png" style="width:560px"><div class="cta">Message us and <em>we\'ll help you grow.</em></div>',1]]},
+2:{dur:13,sc:[
+ [0,2.8,'<h1>Your Black Friday plan in '+hl('3 steps')+'</h1>'],
+ [2.8,5.4,'<div class="num">1</div><h1>'+hl('Tease')+'</h1><p>Build curiosity with early ads.</p>'],
+ [5.4,8,'<div class="num">2</div><h1>'+hl('Capture')+'</h1><p>Grow your audience and email list.</p>'],
+ [8,10.4,'<div class="num">3</div><h1>'+hl('Launch')+'</h1><p>Retarget warm buyers on the day.</p>'],
+ [10.4,13,'<img src="logo-full-t.png" style="width:560px"><div class="cta">Message us and <em>we\'ll help you grow.</em></div>',1]]}};
+const r=R[new URLSearchParams(location.search).get('r')||1];
+const st=document.getElementById('stage');
+const els=r.sc.map(s=>{const d=document.createElement('div');d.className='sc'+(s[3]?' c':'');d.innerHTML=s[2];st.appendChild(d);return d});
+const ease=x=>1-Math.pow(1-x,3);
+function render(t){
+ r.sc.forEach((s,i)=>{const e=els[i];let o=0,y=0;
+  if(t>=s[0]&&t<s[1]){const a=Math.min(1,(t-s[0])/.5),b=Math.min(1,(s[1]-t)/.3);
+   o=Math.min(ease(a),s[1]===r.dur?1:ease(b));y=(1-ease(a))*50}
+  e.style.opacity=o;e.style.transform='translateY('+y+'px)'});
+ document.getElementById('pr').style.width=(t/r.dur*100)+'%'}
+window.DUR=r.dur;render(0);
+</script></body></html>
