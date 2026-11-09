@@ -7,7 +7,8 @@ const path = require('path');
   await page.goto('file://' + path.resolve(process.argv[2]));
   await page.evaluate(() => document.fonts.ready);
   const outDir = process.argv[3];
-  for (let i = 1; i <= 7; i++) {
+  const total = await page.evaluate(() => document.querySelectorAll(".slide").length);
+  for (let i = 1; i <= total; i++) {
     const el = await page.$('#s' + i);
     await el.screenshot({ path: `${outDir}/slide-${i}.png` });
   }
