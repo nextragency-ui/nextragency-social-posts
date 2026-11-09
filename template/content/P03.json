@@ -1,0 +1,121 @@
+{
+ "id": "P03",
+ "month": "2026-11",
+ "slug": "clicks-but-no-orders",
+ "pill": "Ads & Content",
+ "date": "2026-11-11T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Meta ads and content",
+   "title": "Ads getting clicks, but [[orders]] aren't following?"
+  },
+  {
+   "type": "cards",
+   "title": "Clicks are not [[sales]]",
+   "items": [
+    {
+     "icon": "ads",
+     "h": "The ad promise",
+     "p": "What people expect to see."
+    },
+    {
+     "icon": "eye",
+     "h": "The product page",
+     "p": "What they actually find."
+    },
+    {
+     "icon": "cart",
+     "h": "The checkout",
+     "p": "Where they stay or leave."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "label": "Before changing spend",
+   "title": "Trace the path, then [[fix]] it",
+   "body": "More budget on a leaky path just buys more leaks. Walk through it as a customer first."
+  },
+  {
+   "type": "numlist",
+   "title": "Six [[checkpoints]]",
+   "items": [
+    {
+     "h": "Ad promise"
+    },
+    {
+     "h": "Product page"
+    },
+    {
+     "h": "Offer"
+    },
+    {
+     "h": "Trust"
+    },
+    {
+     "h": "Checkout"
+    },
+    {
+     "h": "Follow-up"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "hyp": true,
+   "title": "A shop, [[step]] by step",
+   "items": [
+    {
+     "h": "The ad promises",
+     "p": "Free delivery."
+    },
+    {
+     "h": "The page hides",
+     "p": "Fee appears only at checkout."
+    },
+    {
+     "h": "Shoppers leave",
+     "p": "Fix: match the page to the ad."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Don't just raise the [[budget]]",
+   "old": {
+    "tag": "Quick reaction",
+    "mark": "✕",
+    "lines": [
+     "More budget first",
+     "Change everything at once"
+    ]
+   },
+   "new": {
+    "tag": "Better order",
+    "mark": "✓",
+    "lines": [
+     "Check the path first",
+     "Change one thing at a time"
+    ]
+   }
+  },
+  {
+   "type": "check",
+   "label": "Before you spend more",
+   "title": "Check these [[first]]",
+   "items": [
+    "Does the page match the ad?",
+    "Is the price clear?",
+    "Is delivery clear?",
+    "Is checkout easy on mobile?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this [[checklist]].",
+   "body": "Run it before your next ad budget change."
+  }
+ ],
+ "caption": "Ads getting clicks, but orders aren't following? 🎯\n\nBefore you raise the budget, trace the path a customer takes: the ad promise, the product page, the offer, trust, checkout and follow-up. The leak is often in one small step, not in the ad itself.\n\nSwipe for the six checkpoints and a quick list to run through before you spend more.\n\n💾 Save this for your next ad review.\n\n#MetaAds #InstagramAds #FacebookAds #DigitalMarketing #OnlineStore #Ecommerce #ConversionRate #SmallBusinessLebanon #Marketing #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

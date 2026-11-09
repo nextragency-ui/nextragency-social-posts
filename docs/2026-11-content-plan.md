@@ -4,16 +4,16 @@ Source: Carousel Creative Brief (9 Nov 2026) and Business Overview (Nov 2026).
 Language: English (matches live account; confirm before any Arabic or bilingual batch).
 Format: 1080 x 1350 px, 8 slides by default (7-10). Files: `YYYY-MM_Pxx_topic_NN.png` in `posts/`.
 CTA rule: one primary CTA per post. No invented stats, results, prices, links or deadlines. Examples and sample figures are labelled hypothetical.
-Status key: LIVE = scheduled with owner's go-ahead; DRAFT = plan only, awaiting approval.
+Status key: LIVE = published; SCHEDULED = in Metricool; DRAFT = not yet produced. Owner approved the direction on 9 Nov 2026 and authorised publishing without per-post approval: one carousel every weekday (Mon-Fri) at 16:00 Beirut time.
 
 | # | Pillar | Cover hook | Takeaway | CTA | Status |
 |---|---|---|---|---|---|
-| 01 | Nextragency / services | More sales. Less chaos. A business that can grow. | Business problems are connected; four services work as one approach | Contact: free pre-audit | LIVE (sample) |
-| 02 | AI / automation | Before you automate anything, ask these five questions. | Frequency, repeatability, time cost, exception risk, human review | Save | DRAFT |
-| 03 | Ads / content | Ads getting clicks, but orders aren't following? | Trace promise, page, offer, trust, checkout, follow-up before changing spend | Save | DRAFT |
-| 04 | E-commerce | Can a new customer understand your product in ten seconds? | Opening-view exercise (not a research claim) | Comment | DRAFT |
-| 05 | Pricing / management | Your best-selling product could be hiding a weak margin. | Revenue vs profit after all costs (hypothetical figures) | Save | DRAFT |
-| 06 | Nextragency / services | Where is your business leaking time and money? | What the audit covers; impact-ranked priorities | Contact | DRAFT |
+| 01 | Nextragency / services | More sales. Less chaos. A business that can grow. | Business problems are connected; four services work as one approach | Contact: free pre-audit | LIVE |
+| 02 | AI / automation | Before you automate anything, ask these five questions. | Frequency, repeatability, time cost, exception risk, human review | Save | SCHEDULED |
+| 03 | Ads / content | Ads getting clicks, but orders aren't following? | Trace promise, page, offer, trust, checkout, follow-up before changing spend | Save | SCHEDULED |
+| 04 | E-commerce | Can a new customer understand your product in ten seconds? | Opening-view exercise (not a research claim) | Comment | SCHEDULED |
+| 05 | Pricing / management | Your best-selling product could be hiding a weak margin. | Revenue vs profit after all costs (hypothetical figures) | Save | SCHEDULED |
+| 06 | Nextragency / services | Where is your business leaking time and money? | What the audit covers; impact-ranked priorities | Contact | SCHEDULED |
 | 07 | AI / automation | Stop copying the same order into three places. | Hypothetical order > stock > team flow with exceptions and checkpoints | Share | DRAFT |
 | 08 | Ads / content | One customer question. Five useful content ideas. | Explainer, myth check, comparison, demo, FAQ | Save | DRAFT |
 | 09 | E-commerce | Your store looks good. Is it easy to buy from? | Mobile buying audit | Save | DRAFT |

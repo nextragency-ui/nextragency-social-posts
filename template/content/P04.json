@@ -1,0 +1,121 @@
+{
+ "id": "P04",
+ "month": "2026-11",
+ "slug": "product-clear-in-ten-seconds",
+ "pill": "E-commerce",
+ "date": "2026-11-12T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "E-commerce",
+   "title": "Can a new customer understand your product in [[ten seconds]]?"
+  },
+  {
+   "type": "statement",
+   "label": "A simple exercise, not a study",
+   "title": "Your first screen has one [[job]]",
+   "body": "Show a new visitor what you sell, who it is for, and what to do next. Ten seconds is a test you run, not a research figure."
+  },
+  {
+   "type": "numlist",
+   "title": "Six things to [[see]]",
+   "items": [
+    {
+     "h": "What it is"
+    },
+    {
+     "h": "Who it's for"
+    },
+    {
+     "h": "The price"
+    },
+    {
+     "h": "Proof it's good"
+    },
+    {
+     "h": "Delivery info"
+    },
+    {
+     "h": "What to do next"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Run the [[exercise]]",
+   "items": [
+    {
+     "h": "Open it on a phone",
+     "p": "Your product page, first view."
+    },
+    {
+     "h": "Look, then look away",
+     "p": "Give it about ten seconds."
+    },
+    {
+     "h": "Write what you recall",
+     "p": "Gaps show what is unclear."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "hyp": true,
+   "title": "A candle [[shop]]",
+   "old": {
+    "tag": "Unclear page",
+    "mark": "✕",
+    "lines": [
+     "Photo, no price",
+     "Delivery in the footer"
+    ]
+   },
+   "new": {
+    "tag": "Clear page",
+    "mark": "✓",
+    "lines": [
+     "Name, price and size on top",
+     "Delivery time near the button"
+    ]
+   }
+  },
+  {
+   "type": "cards",
+   "title": "Test with [[fresh]] eyes",
+   "items": [
+    {
+     "icon": "user",
+     "h": "Ask a new person",
+     "p": "Someone who never saw the store."
+    },
+    {
+     "icon": "eye",
+     "h": "Watch, don't explain",
+     "p": "Let them find the answers alone."
+    },
+    {
+     "icon": "chat",
+     "h": "Note what confuses",
+     "p": "Don't defend it. Just write it down."
+    }
+   ]
+  },
+  {
+   "type": "check",
+   "label": "Fix the first screen",
+   "title": "Before you [[publish]]",
+   "items": [
+    "Product name is clear",
+    "Price is easy to see",
+    "Delivery info is easy to find",
+    "One clear button to press"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Which one is [[missing]]?",
+   "body": "Tell us in the comments."
+  }
+ ],
+ "caption": "Can a new customer understand your product in ten seconds? ⏱️\n\nThis is a simple exercise, not a research claim: open your product page on a phone, look at it for about ten seconds, then write down what you remember. Product, customer, price, proof, delivery and the next step should all be easy to spot.\n\nSwipe for the six things a first view should show, plus a hypothetical before and after.\n\n💬 Which of the six is missing on your page? Tell us in the comments.\n\n#Ecommerce #OnlineStore #ShopifyStore #WooCommerce #ProductPage #ConversionRate #InstagramShop #SmallBusinessLebanon #Lebanon #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

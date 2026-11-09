@@ -1,0 +1,117 @@
+{
+ "id": "P06",
+ "month": "2026-11",
+ "slug": "where-is-your-business-leaking",
+ "pill": "Growth",
+ "date": "2026-11-16T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Business audit",
+   "title": "Where is your business leaking [[time]] and money?"
+  },
+  {
+   "type": "cards",
+   "title": "Leaks hide in plain [[sight]]",
+   "items": [
+    {
+     "icon": "ads",
+     "h": "Marketing",
+     "p": "Spend without clear sales."
+    },
+    {
+     "icon": "clock",
+     "h": "Workflows",
+     "p": "Manual, repeated steps."
+    },
+    {
+     "icon": "coins",
+     "h": "Stock and margins",
+     "p": "Cash in the wrong places."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "label": "What an audit does",
+   "title": "We look at the [[whole]] business",
+   "body": "Marketing, sales funnel, operations, team workflows and profit margins, reviewed together instead of one by one."
+  },
+  {
+   "type": "numlist",
+   "title": "What we [[review]]",
+   "items": [
+    {
+     "h": "Marketing"
+    },
+    {
+     "h": "Sales funnel"
+    },
+    {
+     "h": "Workflows"
+    },
+    {
+     "h": "Stock"
+    },
+    {
+     "h": "Margins"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "From audit to [[action]]",
+   "items": [
+    {
+     "h": "Understand",
+     "p": "Goals, problems, how you work."
+    },
+    {
+     "h": "Find the leaks",
+     "p": "Where time and money are lost."
+    },
+    {
+     "h": "Rank the fixes",
+     "p": "A plan ordered by impact."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Fix the biggest leak [[first]]",
+   "old": {
+    "tag": "Guessing",
+    "mark": "✕",
+    "lines": [
+     "Fix what is loudest",
+     "Start with a new tool"
+    ]
+   },
+   "new": {
+    "tag": "Ranked by impact",
+    "mark": "✓",
+    "lines": [
+     "Start with the biggest leak",
+     "Fix in order of impact"
+    ]
+   }
+  },
+  {
+   "type": "check",
+   "label": "Spot your own",
+   "title": "Four [[leaks]] to look for",
+   "items": [
+    "Where do I lose customers?",
+    "What do I do by hand?",
+    "Which product earns least?",
+    "What only I can do?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Find your [[leaks]] first.",
+   "body": "Message us to book your free pre-audit."
+  }
+ ],
+ "caption": "Where is your business leaking time and money? 🔍\n\nLeaks rarely sit in one place. They show up in marketing that doesn't convert, manual busywork, stock in the wrong products, and a business that waits for the owner.\n\nAn audit reviews marketing, the sales funnel, operations, team workflows and margins together, then gives you an action plan ranked by impact. Swipe for what we look at and four leaks you can check yourself today.\n\n📩 Message us to book your free pre-audit.\n\n#BusinessAudit #BusinessGrowth #GrowthStrategy #SmallBusinessLebanon #Lebanon #Ecommerce #SME #BusinessConsulting #Operations #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

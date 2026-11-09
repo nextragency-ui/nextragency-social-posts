@@ -1,0 +1,131 @@
+{
+ "id": "P02",
+ "month": "2026-11",
+ "slug": "five-questions-before-automating",
+ "pill": "Practical AI",
+ "date": "2026-11-10T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Practical AI",
+   "title": "Before you automate anything, ask these [[five]] questions."
+  },
+  {
+   "type": "cards",
+   "title": "Automate the [[right]] tasks",
+   "items": [
+    {
+     "icon": "clock",
+     "h": "Some save hours",
+     "p": "Same steps, every time."
+    },
+    {
+     "icon": "alert",
+     "h": "Some add mess",
+     "p": "Unclear steps just run faster."
+    },
+    {
+     "icon": "user",
+     "h": "Some need you",
+     "p": "Judgment calls stay human."
+    }
+   ]
+  },
+  {
+   "type": "numlist",
+   "title": "The [[five]] questions",
+   "items": [
+    {
+     "h": "How often does it happen?"
+    },
+    {
+     "h": "Is it done the same way?"
+    },
+    {
+     "h": "How much time does it cost?"
+    },
+    {
+     "h": "What if it goes wrong?"
+    },
+    {
+     "h": "Who checks the result?"
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "label": "Questions 1 and 2",
+   "title": "Often, and the same way [[every]] time?",
+   "body": "Frequent, repeatable tasks are the best candidates. If the steps change each time, write them down before you automate."
+  },
+  {
+   "type": "calc",
+   "hyp": true,
+   "title": "Example: order [[confirmations]]",
+   "rows": [
+    [
+     "How often",
+     "Every day"
+    ],
+    [
+     "Same steps?",
+     "Yes"
+    ],
+    [
+     "Time cost",
+     "Adds up"
+    ],
+    [
+     "Risk if wrong",
+     "Low"
+    ],
+    [
+     "Human check",
+     "Quick spot check"
+    ],
+    [
+     "Verdict",
+     "Good candidate",
+     true
+    ]
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Keep a human on [[exceptions]]",
+   "old": {
+    "tag": "Fine to automate",
+    "mark": "✓",
+    "lines": [
+     "Routine confirmations",
+     "Copying the same data"
+    ]
+   },
+   "new": {
+    "tag": "Keep a human",
+    "mark": "•",
+    "lines": [
+     "Refund disputes",
+     "Upset customers"
+    ]
+   }
+  },
+  {
+   "type": "check",
+   "label": "Try it today",
+   "title": "Score one [[task]]",
+   "items": [
+    "Does it repeat often?",
+    "Are the steps the same?",
+    "Does it cost real time?",
+    "Is a mistake easy to catch?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this [[checklist]].",
+   "body": "Use it before you automate your next task."
+  }
+ ],
+ "caption": "Before you automate anything, ask these five questions. 🤖\n\nAutomation is great when the work repeats and the steps are clear. It is not great when it just makes a messy process run faster.\n\nSwipe for a quick check:\n✅ How often does it happen?\n✅ Is it done the same way each time?\n✅ How much time does it cost?\n✅ What happens if it goes wrong?\n✅ Who checks the result?\n\nScore one task from your week and see if it passes.\n\n💾 Save this post for the next time you're tempted to automate something.\n\n#SmallBusinessLebanon #Automation #BusinessAutomation #WorkflowAutomation #OnlineStore #Ecommerce #BusinessOperations #SME #Productivity #Nextragency\n\nNextragency. The Extra Step to Growth."
+}
