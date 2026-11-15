@@ -14,11 +14,11 @@ Status key: LIVE = published; SCHEDULED = in Metricool; DRAFT = not yet produced
 | 04 | E-commerce | Can a new customer understand your product in ten seconds? | Opening-view exercise (not a research claim) | Comment | SCHEDULED |
 | 05 | Pricing / management | Your best-selling product could be hiding a weak margin. | Revenue vs profit after all costs (hypothetical figures) | Save | SCHEDULED |
 | 06 | Nextragency / services | Where is your business leaking time and money? | What the audit covers; impact-ranked priorities | Contact | SCHEDULED |
-| 07 | AI / automation | Stop copying the same order into three places. | Hypothetical order > stock > team flow with exceptions and checkpoints | Share | DRAFT |
-| 08 | Ads / content | One customer question. Five useful content ideas. | Explainer, myth check, comparison, demo, FAQ | Save | DRAFT |
-| 09 | E-commerce | Your store looks good. Is it easy to buy from? | Mobile buying audit | Save | DRAFT |
-| 10 | Pricing / management | Busy all day. Still the bottleneck? | Retain / delegate / document / automate | Share | DRAFT |
-| 11 | Nextragency / services | What happens after you contact Nextragency? | Discovery, recommendation, fixed scope, delivery, measurement | Contact | DRAFT |
+| 07 | AI / automation | Stop copying the same order into three places. | Hypothetical order > stock > team flow with exceptions and checkpoints | Share | SCHEDULED |
+| 08 | Ads / content | One customer question. Five useful content ideas. | Explainer, myth check, comparison, demo, FAQ | Save | SCHEDULED |
+| 09 | E-commerce | Your store looks good. Is it easy to buy from? | Mobile buying audit | Save | SCHEDULED |
+| 10 | Pricing / management | Busy all day. Still the bottleneck? | Retain / delegate / document / automate | Share | SCHEDULED |
+| 11 | Nextragency / services | What happens after you contact Nextragency? | Discovery, recommendation, fixed scope, delivery, measurement | Contact | SCHEDULED |
 | 12 | AI / automation | Use AI where it helps. Keep a human where it matters. | Draft help vs routine vs sensitive vs approval | Save | DRAFT |
 | 13 | Ads / content | Likes are a signal. Which numbers help you decide? | Match metrics to objective; tracking gaps | Save | DRAFT |
 | 14 | E-commerce | An abandoned cart is a question to investigate. | Check costs, delivery, trust, payment before discounting | Comment | DRAFT |

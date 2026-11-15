@@ -1,0 +1,119 @@
+{
+ "id": "P07",
+ "month": "2026-11",
+ "slug": "one-order-one-flow",
+ "pill": "Practical AI",
+ "date": "2026-11-17T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Practical AI",
+   "title": "Stop copying the same order into [[three]] places."
+  },
+  {
+   "type": "cards",
+   "title": "One order, [[three]] copies",
+   "items": [
+    {
+     "icon": "cart",
+     "h": "The order arrives",
+     "p": "In a chat, form or store."
+    },
+    {
+     "icon": "box",
+     "h": "Stock gets updated",
+     "p": "By hand, in a sheet."
+    },
+    {
+     "icon": "chat",
+     "h": "The team is told",
+     "p": "Another message to write."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "label": "The hidden cost",
+   "title": "Every copy is a chance to [[slip]]",
+   "body": "A typo, a missed update, a late message. And the same typing repeats every day, for every order."
+  },
+  {
+   "type": "steps",
+   "hyp": true,
+   "title": "Example: one order, [[one]] flow",
+   "items": [
+    {
+     "h": "The order is entered once",
+     "p": "In one place only."
+    },
+    {
+     "h": "Stock updates from it",
+     "p": "No second entry."
+    },
+    {
+     "h": "The team gets one alert",
+     "p": "With the order details."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "hyp": true,
+   "title": "Copying vs [[connected]]",
+   "old": {
+    "tag": "Copy and paste",
+    "mark": "•",
+    "lines": [
+     "Three entries per order",
+     "Easy to miss one"
+    ]
+   },
+   "new": {
+    "tag": "One flow",
+    "mark": "✓",
+    "lines": [
+     "One entry per order",
+     "Updates follow on their own"
+    ]
+   }
+  },
+  {
+   "type": "cards",
+   "title": "Add [[checkpoints]]",
+   "items": [
+    {
+     "icon": "alert",
+     "h": "Item out of stock",
+     "p": "A person decides."
+    },
+    {
+     "icon": "user",
+     "h": "Unclear address",
+     "p": "A person confirms."
+    },
+    {
+     "icon": "eye",
+     "h": "Unusual large order",
+     "p": "A person reviews."
+    }
+   ]
+  },
+  {
+   "type": "check",
+   "label": "Map it first",
+   "title": "Before you [[automate]]",
+   "items": [
+    "Where does an order arrive?",
+    "Where is it copied?",
+    "Who needs to know?",
+    "Which cases need a person?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Share this with whoever [[copies]] orders.",
+   "body": "Spot the repeated steps first. Then decide what to connect."
+  }
+ ],
+ "caption": "Stop copying the same order into three places. 🔁\n\nWhen an order has to be typed into a chat, a stock sheet and a team message, each copy takes time and each one can go wrong.\n\nA better flow starts with a map: where does the order arrive, where is it copied, who needs to know, and which cases need a person to decide. Automate the routine steps, and keep checkpoints for out-of-stock items, unclear addresses and unusual orders.\n\nThe example in the carousel is hypothetical.\n\n📤 Share this with the person on your team who copies orders by hand.\n\n#Automation #BusinessAutomation #WorkflowAutomation #OnlineStore #Ecommerce #OrderManagement #SmallBusinessLebanon #SME #BusinessOperations #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

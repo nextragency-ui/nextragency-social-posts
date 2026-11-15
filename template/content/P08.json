@@ -1,0 +1,118 @@
+{
+ "id": "P08",
+ "month": "2026-11",
+ "slug": "one-question-five-ideas",
+ "pill": "Content",
+ "date": "2026-11-18T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Ads and content",
+   "title": "One customer question. [[Five]] useful content ideas."
+  },
+  {
+   "type": "statement",
+   "label": "Start here",
+   "title": "Customers already tell you what to [[post]]",
+   "body": "Every repeated question is a topic people want answered. You do not need a new idea each day. You need better questions."
+  },
+  {
+   "type": "numlist",
+   "title": "Turn one question into [[five]]",
+   "items": [
+    {
+     "h": "An explainer"
+    },
+    {
+     "h": "A myth check"
+    },
+    {
+     "h": "A comparison"
+    },
+    {
+     "h": "A demo"
+    },
+    {
+     "h": "An FAQ"
+    }
+   ]
+  },
+  {
+   "type": "calc",
+   "hyp": true,
+   "title": "Question: \"Which size [[fits]]?\"",
+   "rows": [
+    [
+     "Explainer",
+     "How to measure"
+    ],
+    [
+     "Myth check",
+     "Size up always?"
+    ],
+    [
+     "Comparison",
+     "Size A vs B"
+    ],
+    [
+     "Demo",
+     "Measure on video"
+    ],
+    [
+     "FAQ",
+     "Exchange policy",
+     true
+    ]
+   ]
+  },
+  {
+   "type": "grid2",
+   "title": "Where to find the [[questions]]",
+   "items": [
+    {
+     "l": "1",
+     "h": "Direct messages",
+     "p": "Ask what repeats."
+    },
+    {
+     "l": "2",
+     "h": "Comments",
+     "p": "Note what confuses."
+    },
+    {
+     "l": "3",
+     "h": "Phone and delivery",
+     "p": "Calls tell a lot."
+    },
+    {
+     "l": "4",
+     "h": "Your own team",
+     "p": "Ask who answers most."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "label": "Keep it useful",
+   "title": "Answer first. Sell [[second]].",
+   "body": "A post that clearly answers a real question earns attention. Keep the offer light and let the answer do the work."
+  },
+  {
+   "type": "check",
+   "label": "This week",
+   "title": "Build your [[list]]",
+   "items": [
+    "Collect five repeated questions",
+    "Pick the most common one",
+    "Choose one format for it",
+    "Plan four more from it"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this for your next [[content]] plan.",
+   "body": "Comment with the question your customers ask most."
+  }
+ ],
+ "caption": "One customer question. Five useful content ideas. 💬\n\nYou do not need a brand-new idea every day. Your customers are already telling you what they want to know.\n\nTake one repeated question and turn it into: an explainer, a myth check, a comparison, a demo and an FAQ. In the carousel we use a hypothetical question, \"Which size fits?\", to show how one question becomes five posts.\n\nWhere to find questions: direct messages, comments, phone calls and your own team.\n\n💾 Save this for your next content plan, and tell us in the comments: what question do customers ask you most?\n\n#ContentMarketing #InstagramMarketing #ContentIdeas #SocialMediaTips #SmallBusinessLebanon #OnlineStore #MarketingTips #SME #ContentStrategy #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

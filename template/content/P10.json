@@ -1,0 +1,123 @@
+{
+ "id": "P10",
+ "month": "2026-11",
+ "slug": "busy-but-still-the-bottleneck",
+ "pill": "Management",
+ "date": "2026-11-20T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Pricing and management",
+   "title": "Busy all day. Still the [[bottleneck]]?"
+  },
+  {
+   "type": "cards",
+   "title": "Signs everything waits for [[you]]",
+   "items": [
+    {
+     "icon": "chat",
+     "h": "Same questions",
+     "p": "Only you can answer them."
+    },
+    {
+     "icon": "clock",
+     "h": "Small jobs pile up",
+     "p": "Because you do them all."
+    },
+    {
+     "icon": "user",
+     "h": "No one else knows how",
+     "p": "It all lives in your head."
+    }
+   ]
+  },
+  {
+   "type": "statement",
+   "label": "The shift",
+   "title": "Busy is not the same as [[in control]]",
+   "body": "If work stops when you step away, the business depends on you. Sort your tasks, then decide who or what should carry each one."
+  },
+  {
+   "type": "grid2",
+   "title": "Sort every task into [[four]]",
+   "items": [
+    {
+     "l": "R",
+     "h": "Retain",
+     "p": "Only you should do it."
+    },
+    {
+     "l": "D",
+     "h": "Delegate",
+     "p": "Someone else can do it."
+    },
+    {
+     "l": "W",
+     "h": "Write it down",
+     "p": "Make the steps clear."
+    },
+    {
+     "l": "A",
+     "h": "Automate",
+     "p": "A tool can repeat it."
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "hyp": true,
+   "title": "Example: delivery [[questions]]",
+   "items": [
+    {
+     "h": "Notice it repeats",
+     "p": "The same question, often."
+    },
+    {
+     "h": "Write the answer once",
+     "p": "A short, clear reply."
+    },
+    {
+     "h": "Hand it over",
+     "p": "A teammate uses it."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Owner-only vs [[shared]]",
+   "old": {
+    "tag": "Only you",
+    "mark": "•",
+    "lines": [
+     "Work waits for you",
+     "Knowledge stays in your head"
+    ]
+   },
+   "new": {
+    "tag": "Shared",
+    "mark": "✓",
+    "lines": [
+     "Others can carry it",
+     "Steps are written down"
+    ]
+   }
+  },
+  {
+   "type": "check",
+   "label": "This week",
+   "title": "List what you [[did]]",
+   "items": [
+    "Write down this week's tasks",
+    "Mark what only you can do",
+    "Pick one task to hand over",
+    "Write its steps down"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Share this with a [[busy]] owner.",
+   "body": "You do not need to do everything yourself."
+  }
+ ],
+ "caption": "Busy all day. Still the bottleneck? ⏳\n\nWhen every question, approval and small task waits for you, the business slows down the moment you step away.\n\nSort each task into one of four groups: retain (only you), delegate (someone else can do it), write it down (make the steps clear) or automate (a tool can repeat it). Start with one task this week.\n\nThe delivery-questions example in the carousel is hypothetical.\n\n📤 Share this with an owner who never has a free minute.\n\n#BusinessManagement #Delegation #Operations #SOPs #BusinessOperations #SmallBusinessLebanon #Entrepreneur #SME #Productivity #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

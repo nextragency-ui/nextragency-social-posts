@@ -1,0 +1,107 @@
+{
+ "id": "P09",
+ "month": "2026-11",
+ "slug": "easy-to-buy-from",
+ "pill": "E-commerce",
+ "date": "2026-11-19T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "E-commerce",
+   "title": "Your store looks good. Is it easy to [[buy]] from?"
+  },
+  {
+   "type": "statement",
+   "label": "Two different questions",
+   "title": "Looks good is not the same as [[easy]]",
+   "body": "Many customers browse and buy on a phone. A store can look great and still make buying slow or unclear."
+  },
+  {
+   "type": "steps",
+   "title": "Buy something from your [[own]] store",
+   "items": [
+    {
+     "h": "Open it on your phone",
+     "p": "Not on your computer."
+    },
+    {
+     "h": "Find a product",
+     "p": "Starting from the home page."
+    },
+    {
+     "h": "Add it and check out",
+     "p": "All the way to the end."
+    }
+   ]
+  },
+  {
+   "type": "grid2",
+   "title": "On every product [[page]]",
+   "items": [
+    {
+     "l": "A",
+     "h": "Price",
+     "p": "Clear without scrolling."
+    },
+    {
+     "l": "B",
+     "h": "Options",
+     "p": "Size and colour easy to pick."
+    },
+    {
+     "l": "C",
+     "h": "Delivery",
+     "p": "Cost and time visible."
+    },
+    {
+     "l": "D",
+     "h": "Photos",
+     "p": "Show the real product."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Hard vs easy to [[buy]]",
+   "old": {
+    "tag": "Hard to buy",
+    "mark": "•",
+    "lines": [
+     "Delivery cost appears last",
+     "Many steps to pay"
+    ]
+   },
+   "new": {
+    "tag": "Easy to buy",
+    "mark": "✓",
+    "lines": [
+     "Total clear early",
+     "Few steps to pay"
+    ]
+   }
+  },
+  {
+   "type": "statement",
+   "label": "Fresh eyes",
+   "title": "Ask someone else to [[try]] it",
+   "body": "You know your store too well. Hand your phone to a friend, say nothing, and watch where they hesitate."
+  },
+  {
+   "type": "check",
+   "label": "Mobile buying audit",
+   "title": "Notes to [[write]] down",
+   "items": [
+    "Where did they hesitate?",
+    "What did they not understand?",
+    "Which step felt slow?",
+    "What did they ask you?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this [[test]].",
+   "body": "Run this audit on your store this week."
+  }
+ ],
+ "caption": "Your store looks good. Is it easy to buy from? 📱\n\nLooking good and being easy to buy from are two different things, especially when customers browse on a phone.\n\nTry this mobile buying audit: open your store on your phone, find a product, add it to the cart and go all the way to checkout. Check that price, options, delivery and photos are clear on every product page. Then hand your phone to someone else and watch where they hesitate.\n\n💾 Save this and run the audit on your own store this week.\n\n#Ecommerce #OnlineStore #Shopify #WooCommerce #ConversionRate #MobileShopping #SmallBusinessLebanon #OnlineShopping #UserExperience #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

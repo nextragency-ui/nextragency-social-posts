@@ -1,0 +1,105 @@
+{
+ "id": "P11",
+ "month": "2026-11",
+ "slug": "what-happens-after-you-contact-us",
+ "pill": "Nextragency",
+ "date": "2026-11-23T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Nextragency",
+   "title": "What happens after you contact [[Nextragency]]?"
+  },
+  {
+   "type": "statement",
+   "label": "Step one",
+   "title": "It starts with a [[conversation]]",
+   "body": "We listen first: your goals, your problems and how your business runs today. No pitch before we understand."
+  },
+  {
+   "type": "numlist",
+   "title": "The path in [[five]] steps",
+   "items": [
+    {
+     "h": "Discovery"
+    },
+    {
+     "h": "Recommendation"
+    },
+    {
+     "h": "Fixed scope"
+    },
+    {
+     "h": "Delivery"
+    },
+    {
+     "h": "Measurement"
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "The free [[pre-audit]]",
+   "items": [
+    {
+     "icon": "chat",
+     "h": "A call",
+     "p": "We learn how you work."
+    },
+    {
+     "icon": "mail",
+     "h": "A short written summary",
+     "p": "Your top growth leaks."
+    },
+    {
+     "icon": "check",
+     "h": "Quick wins",
+     "p": "Things you can start on."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Pre-audit, then [[project]]",
+   "old": {
+    "tag": "Pre-audit",
+    "mark": "✓",
+    "lines": [
+     "Free",
+     "No obligation"
+    ]
+   },
+   "new": {
+    "tag": "Project",
+    "mark": "✓",
+    "lines": [
+     "Fixed scope, agreed first",
+     "Delivered and measured"
+    ]
+   }
+  },
+  {
+   "type": "statement",
+   "label": "Your call",
+   "title": "You decide the next [[step]]",
+   "body": "After the summary, you choose what to do. If a project fits, we recommend one. If it does not, you still leave with clarity."
+  },
+  {
+   "type": "check",
+   "label": "Optional prep",
+   "title": "Bring a few [[notes]]",
+   "items": [
+    "Your main goal right now",
+    "Where your time goes",
+    "Tools you already use",
+    "Your biggest frustration"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Take the extra [[step]].",
+   "body": "Message us to book your free pre-audit."
+  }
+ ],
+ "caption": "What happens after you contact Nextragency? 📩\n\nIt starts with a conversation. We listen to your goals, your problems and how your business runs today.\n\nThe free pre-audit is a call plus a short written summary of your top growth leaks and quick wins, with no cost and no obligation. If a project fits, we recommend a solution with a fixed scope agreed before we start, then deliver and measure it. You decide the next step.\n\nNo need to prepare, but it helps to think about your main goal, where your time goes, the tools you use and your biggest frustration.\n\n📩 Message us to book your free pre-audit.\n\n#BusinessGrowth #BusinessConsulting #GrowthStrategy #BusinessAudit #SmallBusinessLebanon #Lebanon #Ecommerce #SME #Operations #Nextragency\n\nNextragency. The Extra Step to Growth."
+}
