@@ -1,0 +1,111 @@
+{
+ "id": "P12",
+ "month": "2026-11",
+ "slug": "ai-and-human",
+ "pill": "Practical AI",
+ "date": "2026-11-24T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Practical AI",
+   "title": "Use AI where it helps. Keep a [[human]] where it matters."
+  },
+  {
+   "type": "statement",
+   "label": "A tool, not a boss",
+   "title": "AI drafts. People [[decide]]",
+   "body": "It can save time on first versions and repeat work. Some things still need a person's judgment."
+  },
+  {
+   "type": "grid2",
+   "title": "Four kinds of [[task]]",
+   "items": [
+    {
+     "l": "A",
+     "h": "Drafts",
+     "p": "AI gives a first version."
+    },
+    {
+     "l": "B",
+     "h": "Routine",
+     "p": "Same steps, low risk."
+    },
+    {
+     "l": "C",
+     "h": "Sensitive",
+     "p": "Complaints, refunds, health."
+    },
+    {
+     "l": "D",
+     "h": "Approvals",
+     "p": "Prices, promises, payments."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Where AI [[helps]]",
+   "items": [
+    {
+     "icon": "chat",
+     "h": "Reply drafts",
+     "p": "A start you edit."
+    },
+    {
+     "icon": "mail",
+     "h": "Summaries",
+     "p": "Long messages made short."
+    },
+    {
+     "icon": "clock",
+     "h": "Repeat tasks",
+     "p": "Same steps, every day."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "hyp": true,
+   "title": "Sent as is vs [[checked]]",
+   "old": {
+    "tag": "Sent as written",
+    "mark": "•",
+    "lines": [
+     "Nobody reads it first",
+     "A wrong promise slips out"
+    ]
+   },
+   "new": {
+    "tag": "Draft, then checked",
+    "mark": "✓",
+    "lines": [
+     "A person reads it",
+     "Edited before sending"
+    ]
+   }
+  },
+  {
+   "type": "statement",
+   "label": "Sensitive cases",
+   "title": "Keep a [[person]] on the hard ones",
+   "body": "An upset customer, a refund dispute or a health question needs someone who can take responsibility."
+  },
+  {
+   "type": "check",
+   "label": "Before you delegate",
+   "title": "Ask [[four]] questions",
+   "items": [
+    "Could a mistake hurt a customer?",
+    "Does it involve money or promises?",
+    "Who reads it before it goes out?",
+    "Can a person step in fast?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this [[rule]].",
+   "body": "Draft with AI. Decide with a person."
+  }
+ ],
+ "caption": "Use AI where it helps. Keep a human where it matters. 🤝\n\nAI is useful for first drafts, summaries and repeat tasks. But some work needs a person: sensitive complaints, refunds, health questions, and anything that involves a price, a promise or a payment.\n\nA simple rule: let AI draft, and let a person read and decide before anything reaches a customer. Ask four questions first: could a mistake hurt a customer, does it involve money or promises, who reads it before it goes out, and can a person step in fast?\n\nThe example in the carousel is hypothetical.\n\n💾 Save this rule for the next time you automate something.\n\n#AIForBusiness #PracticalAI #Automation #BusinessAutomation #CustomerService #SmallBusinessLebanon #SME #BusinessOperations #Ecommerce #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

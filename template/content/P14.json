@@ -1,0 +1,107 @@
+{
+ "id": "P14",
+ "month": "2026-11",
+ "slug": "abandoned-cart-question",
+ "pill": "E-commerce",
+ "date": "2026-11-26T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "E-commerce",
+   "title": "An abandoned cart is a [[question]] to investigate."
+  },
+  {
+   "type": "statement",
+   "label": "Before the discount",
+   "title": "A left cart is not always a [[no]]",
+   "body": "Someone added a product and left. Find out why before you cut your price."
+  },
+  {
+   "type": "grid2",
+   "title": "Four things to [[check]]",
+   "items": [
+    {
+     "l": "A",
+     "h": "Costs",
+     "p": "Extras appear too late."
+    },
+    {
+     "l": "B",
+     "h": "Delivery",
+     "p": "Time is not clear."
+    },
+    {
+     "l": "C",
+     "h": "Trust",
+     "p": "No reviews or contact."
+    },
+    {
+     "l": "D",
+     "h": "Payment",
+     "p": "Few options, or errors."
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "Investigate in [[order]]",
+   "items": [
+    {
+     "h": "Go through checkout",
+     "p": "On your own phone."
+    },
+    {
+     "h": "Note the surprises",
+     "p": "Anything a buyer might not expect."
+    },
+    {
+     "h": "Fix the cause",
+     "p": "Then consider a discount."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Discount first vs [[answer]] first",
+   "old": {
+    "tag": "Discount first",
+    "mark": "•",
+    "lines": [
+     "May hide the real problem",
+     "Costs you margin"
+    ]
+   },
+   "new": {
+    "tag": "Investigate first",
+    "mark": "✓",
+    "lines": [
+     "Finds the real reason",
+     "Discount only if needed"
+    ]
+   }
+  },
+  {
+   "type": "statement",
+   "label": "Ask directly",
+   "title": "Ask, if they [[agreed]] to hear from you",
+   "body": "A short, polite message to someone who left a cart can teach you more than guessing."
+  },
+  {
+   "type": "check",
+   "label": "Cart review",
+   "title": "Check your [[checkout]]",
+   "items": [
+    "Is the total clear early?",
+    "Is the delivery time stated?",
+    "Does the page feel trustworthy?",
+    "Does payment work smoothly?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Why do you [[leave]] a cart? Comment.",
+   "body": "Share your last reason."
+  }
+ ],
+ "caption": "An abandoned cart is a question to investigate. 🛒\n\nWhen someone adds a product and leaves, the first reaction is often a discount. But the real reason may be something else: extra costs that appear late, unclear delivery time, a page that does not feel trustworthy, or a payment step that does not work smoothly.\n\nGo through your own checkout on your phone, note every surprise, fix the cause, and only then consider a discount. If customers agreed to hear from you, a short polite message can also teach you a lot.\n\n💬 Comment below: what is the last reason you left a checkout?\n\n#Ecommerce #AbandonedCart #OnlineStore #Shopify #WooCommerce #CheckoutExperience #ConversionRate #SmallBusinessLebanon #OnlineShopping #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

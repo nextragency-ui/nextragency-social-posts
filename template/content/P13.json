@@ -1,0 +1,123 @@
+{
+ "id": "P13",
+ "month": "2026-11",
+ "slug": "numbers-that-decide",
+ "pill": "Ads & Content",
+ "date": "2026-11-25T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Ads & Content",
+   "title": "Likes are a signal. Which numbers help you [[decide]]?"
+  },
+  {
+   "type": "statement",
+   "label": "Not useless",
+   "title": "Likes show [[attention]]",
+   "body": "They tell you something caught an eye. They do not tell you whether the business moved."
+  },
+  {
+   "type": "grid2",
+   "title": "Match the number to the [[goal]]",
+   "items": [
+    {
+     "l": "A",
+     "h": "Be seen",
+     "p": "Look at reach."
+    },
+    {
+     "l": "B",
+     "h": "Spark interest",
+     "p": "Look at saves, shares."
+    },
+    {
+     "l": "C",
+     "h": "Get visits",
+     "p": "Look at link clicks."
+    },
+    {
+     "l": "D",
+     "h": "Get orders",
+     "p": "Look at orders."
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "title": "Before you read [[numbers]]",
+   "items": [
+    {
+     "icon": "ads",
+     "h": "Pick one goal",
+     "p": "For each post or ad."
+    },
+    {
+     "icon": "eye",
+     "h": "Check tracking",
+     "p": "Where do orders come from?"
+    },
+    {
+     "icon": "cart",
+     "h": "Ask customers",
+     "p": "How did you find us?"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "hyp": true,
+   "title": "A post that [[looks]] great",
+   "items": [
+    {
+     "h": "Many likes",
+     "p": "It feels like a win."
+    },
+    {
+     "h": "Few link clicks",
+     "p": "Few people visit the store."
+    },
+    {
+     "h": "The goal was orders",
+     "p": "The numbers do not match."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Feelings vs [[goals]]",
+   "old": {
+    "tag": "Judging by likes",
+    "mark": "•",
+    "lines": [
+     "Feels good",
+     "Orders stay unclear"
+    ]
+   },
+   "new": {
+    "tag": "Judging by goal",
+    "mark": "✓",
+    "lines": [
+     "Number picked first",
+     "Compared over time"
+    ]
+   }
+  },
+  {
+   "type": "check",
+   "label": "One-minute review",
+   "title": "Ask [[four]] things",
+   "items": [
+    "What was the goal?",
+    "Which number matches it?",
+    "Can I track it?",
+    "What will I change next?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this [[checklist]].",
+   "body": "Pick the goal first. Then the number."
+  }
+ ],
+ "caption": "Likes are a signal. Which numbers help you decide? 📊\n\nLikes show that something caught attention, but they do not tell you whether it helped the business. The number to watch depends on the goal.\n\nWant to be seen? Look at reach. Want interest? Look at saves and shares. Want visits? Look at link clicks. Want orders? Look at orders. Before you read any number, pick one goal, check that you can track where orders come from, and ask new customers how they found you.\n\nThe example in the carousel is hypothetical.\n\n💾 Save this checklist for your next post or ad review.\n\n#SocialMediaMarketing #MarketingMetrics #InstagramMarketing #MetaAds #ContentStrategy #DigitalMarketing #SmallBusinessLebanon #Ecommerce #SME #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

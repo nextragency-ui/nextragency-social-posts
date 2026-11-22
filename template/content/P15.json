@@ -1,0 +1,100 @@
+{
+ "id": "P15",
+ "month": "2026-11",
+ "slug": "competitor-pattern-own-angle",
+ "pill": "Pricing & Management",
+ "date": "2026-11-27T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Pricing & Management",
+   "title": "Competitor research: learn the pattern, find your own [[angle]]."
+  },
+  {
+   "type": "statement",
+   "label": "Not copying",
+   "title": "Copying is not [[research]]",
+   "body": "Looking at competitors helps when you search for patterns, not when you copy their posts or prices."
+  },
+  {
+   "type": "numlist",
+   "title": "Four things to [[note]]",
+   "items": [
+    {
+     "h": "Public offers"
+    },
+    {
+     "h": "Positioning"
+    },
+    {
+     "h": "Pricing structure"
+    },
+    {
+     "h": "Customer reviews"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "title": "A simple [[process]]",
+   "items": [
+    {
+     "h": "Pick three competitors",
+     "p": "Ones your customers also consider."
+    },
+    {
+     "h": "Note what is public",
+     "p": "Offers, prices, reviews."
+    },
+    {
+     "h": "Write the pattern",
+     "p": "What they all do the same."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "hyp": true,
+   "title": "Copy vs [[differentiate]]",
+   "old": {
+    "tag": "Copy them",
+    "mark": "•",
+    "lines": [
+     "Same offer, same price",
+     "Compete only on price"
+    ]
+   },
+   "new": {
+    "tag": "Find your angle",
+    "mark": "✓",
+    "lines": [
+     "Serve a gap they miss",
+     "Explain why you differ"
+    ]
+   }
+  },
+  {
+   "type": "statement",
+   "label": "Fair play",
+   "title": "Use public information [[only]]",
+   "body": "Your goal is to understand the market, not to imitate it. Look at what competitors show openly."
+  },
+  {
+   "type": "check",
+   "label": "Find your angle",
+   "title": "Ask [[four]] questions",
+   "items": [
+    "What do customers complain about?",
+    "What do all competitors say?",
+    "What can we do better?",
+    "How will customers know?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Save this [[method]].",
+   "body": "Learn the pattern. Then choose your own angle."
+  }
+ ],
+ "caption": "Competitor research: learn the pattern, find your own angle. 🔎\n\nLooking at competitors is useful when you look for patterns, not when you copy their posts or prices. Start with three competitors your customers also consider, and note what is public: their offers, how they position themselves, how their pricing is structured, and what customers say in reviews.\n\nThen ask: what do customers complain about, what does everyone say, what can we do better, and how will customers know? That is where your own angle starts.\n\nThe example in the carousel is hypothetical.\n\n💾 Save this method for your next market review.\n\n#CompetitorAnalysis #MarketResearch #BusinessStrategy #Pricing #BusinessGrowth #SmallBusinessLebanon #SME #Positioning #Ecommerce #Nextragency\n\nNextragency. The Extra Step to Growth."
+}

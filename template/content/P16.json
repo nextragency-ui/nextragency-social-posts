@@ -1,0 +1,103 @@
+{
+ "id": "P16",
+ "month": "2026-11",
+ "slug": "ads-need-ready-business",
+ "pill": "Nextragency",
+ "date": "2026-11-30T16:00:00",
+ "slides": [
+  {
+   "type": "hook",
+   "label": "Nextragency",
+   "title": "Better ads work harder when the rest of the business is [[ready]]."
+  },
+  {
+   "type": "statement",
+   "label": "After the click",
+   "title": "An ad brings the [[visit]]",
+   "body": "What happens next depends on the whole business. An ad cannot fix an empty shelf, a slow reply or a confusing store."
+  },
+  {
+   "type": "cards",
+   "title": "Ads lean on [[three]] things",
+   "items": [
+    {
+     "icon": "box",
+     "h": "Stock",
+     "p": "Is the item available?"
+    },
+    {
+     "icon": "cart",
+     "h": "Store",
+     "p": "Is it easy to buy from?"
+    },
+    {
+     "icon": "chat",
+     "h": "Follow-up",
+     "p": "Are messages answered?"
+    }
+   ]
+  },
+  {
+   "type": "steps",
+   "hyp": true,
+   "title": "Example: an ad that [[works]]",
+   "items": [
+    {
+     "h": "The ad brings messages",
+     "p": "Customers are interested."
+    },
+    {
+     "h": "Replies take a day",
+     "p": "Some customers move on."
+    },
+    {
+     "h": "Fix: who answers, and when",
+     "p": "Set it up once."
+    }
+   ]
+  },
+  {
+   "type": "vs",
+   "title": "Ads only vs the whole [[business]]",
+   "old": {
+    "tag": "Ads only",
+    "mark": "•",
+    "lines": [
+     "Fixes one step",
+     "Leaks stay hidden"
+    ]
+   },
+   "new": {
+    "tag": "Joined up",
+    "mark": "✓",
+    "lines": [
+     "Ads, store, stock, team",
+     "Leaks found and ranked"
+    ]
+   }
+  },
+  {
+   "type": "statement",
+   "label": "Where we start",
+   "title": "That is why we start with an [[audit]]",
+   "body": "The free pre-audit looks at how marketing, store, stock and team connect, and ranks what to fix first."
+  },
+  {
+   "type": "check",
+   "label": "Ask your business",
+   "title": "Are you [[ready]]?",
+   "items": [
+    "Could we deliver if sales grew?",
+    "Do we reply quickly?",
+    "Is our stock tracked?",
+    "Does everything wait for the owner?"
+   ]
+  },
+  {
+   "type": "cta",
+   "title": "Message us to book your free [[pre-audit]].",
+   "body": "Take the extra step."
+  }
+ ],
+ "caption": "Better ads work harder when the rest of the business is ready. 🚀\n\nAn ad brings the visit. What happens next depends on stock, the store, follow-up and the team. If an item is out of stock, replies take a day or the store is confusing, even a good ad will leak results.\n\nThat is why we start with a free pre-audit: a call plus a short written summary of your top growth leaks and quick wins, no cost and no obligation. We look at how marketing, store, stock and team connect, and rank what to fix first.\n\nThe example in the carousel is hypothetical.\n\n📩 Message us to book your free pre-audit.\n\n#BusinessGrowth #BusinessConsulting #GrowthStrategy #BusinessAudit #DigitalMarketing #SmallBusinessLebanon #Lebanon #Ecommerce #SME #Nextragency\n\nNextragency. The Extra Step to Growth."
+}
