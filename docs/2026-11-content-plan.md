@@ -19,11 +19,11 @@ Status key: LIVE = published; SCHEDULED = in Metricool; DRAFT = not yet produced
 | 09 | E-commerce | Your store looks good. Is it easy to buy from? | Mobile buying audit | Save | SCHEDULED |
 | 10 | Pricing / management | Busy all day. Still the bottleneck? | Retain / delegate / document / automate | Share | SCHEDULED |
 | 11 | Nextragency / services | What happens after you contact Nextragency? | Discovery, recommendation, fixed scope, delivery, measurement | Contact | SCHEDULED |
-| 12 | AI / automation | Use AI where it helps. Keep a human where it matters. | Draft help vs routine vs sensitive vs approval | Save | DRAFT |
-| 13 | Ads / content | Likes are a signal. Which numbers help you decide? | Match metrics to objective; tracking gaps | Save | DRAFT |
-| 14 | E-commerce | An abandoned cart is a question to investigate. | Check costs, delivery, trust, payment before discounting | Comment | DRAFT |
-| 15 | Pricing / management | Competitor research: learn the pattern, find your own angle. | Public offers, positioning, pricing structure, reviews | Save | DRAFT |
-| 16 | Nextragency / services | Better ads work harder when the rest of the business is ready. | Marketing joined to stock, store, follow-up, team | Contact | DRAFT |
+| 12 | AI / automation | Use AI where it helps. Keep a human where it matters. | Draft help vs routine vs sensitive vs approval | Save | SCHEDULED |
+| 13 | Ads / content | Likes are a signal. Which numbers help you decide? | Match metrics to objective; tracking gaps | Save | SCHEDULED |
+| 14 | E-commerce | An abandoned cart is a question to investigate. | Check costs, delivery, trust, payment before discounting | Comment | SCHEDULED |
+| 15 | Pricing / management | Competitor research: learn the pattern, find your own angle. | Public offers, positioning, pricing structure, reviews | Save | SCHEDULED |
+| 16 | Nextragency / services | Better ads work harder when the rest of the business is ready. | Marketing joined to stock, store, follow-up, team | Contact | SCHEDULED |
 | 17 | AI / automation | Could your weekly report arrive with a draft summary? | Inputs, checks, AI draft, human review, decision | Save | DRAFT |
 | 18 | Ads / content | Test one ad idea at a time, and learn from the result. | Test card: hypothesis, variable, metric, window, decision rule | Save | DRAFT |
 | 19 | E-commerce | Out of stock on the winner. Cash tied up in the slow seller. | Stock review: demand, lead time, on-hand, cash (sample thresholds labelled) | Share | DRAFT |
